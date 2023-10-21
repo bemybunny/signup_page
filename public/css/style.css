@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+ /* navbar */
+.navbar{
+    color:white;
+    padding:20px;
+    padding-left:50px;
+    padding-right:30px;
+    background-image: linear-gradient( rgb(0, 0, 12),rgba(1, 1, 36, 0.836));
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size:20px;
+}
+
+.block ul{
+    cursor:pointer;
+    list-style: none;
+    display:flex;
+    gap:15px;
+}
+/* Register Form */
+.login{
+    display:flex;
+    flex-direction: column;
+}
+.button{
+   margin-left:0px;
+}
